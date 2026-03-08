@@ -61,7 +61,7 @@ function App() {
   <img
     src="/elevionique-primary.svg"
     alt="Elevionique"
-    className="h-20 w-auto"
+    className="h-24 w-auto"
   />
 </div>
           <nav className="hidden items-center gap-8 text-sm text-slate-600 md:flex">
