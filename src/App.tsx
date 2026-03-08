@@ -58,14 +58,12 @@ function App() {
       <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-700 via-teal-500 to-lime-400 text-sm font-semibold text-white shadow-sm">
-              E
-            </div>
-            <div>
-              <div className="text-lg font-semibold tracking-tight">Elevionique</div>
-              <div className="text-xs uppercase tracking-[0.25em] text-slate-500">Optimal Living</div>
-            </div>
-          </div>
+  <img
+    src="/elevionique-primary.svg"
+    alt="Elevionique"
+    className="h-16 w-auto"
+  />
+</div>
           <nav className="hidden items-center gap-8 text-sm text-slate-600 md:flex">
             <a href="#product" className="transition hover:text-slate-900">Product</a>
             <a href="#ingredients" className="transition hover:text-slate-900">Ingredients</a>
