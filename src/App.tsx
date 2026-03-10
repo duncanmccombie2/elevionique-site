@@ -16,19 +16,19 @@ function App() {
 
   const communityImages = [
     {
-      src: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1200&q=80',
-      alt: 'Fit woman smiling in a gym after a workout',
+      src: '/feel strong.png',
+      alt: 'Man bench pressing',
       title: 'Strength that feels good',
     },
     {
-      src: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=80',
-      alt: 'Happy mixed group of young adults in athletic wear',
+      src: '/move daily.png',
+      alt: 'Happy woman after workout',
       title: 'Wellness for real life',
     },
     {
-      src: 'https://images.unsplash.com/photo-1518459031867-a89b944bffe4?auto=format&fit=crop&w=1200&q=80',
-      alt: 'Young man and woman stretching together in a bright studio',
-      title: 'Movement, energy, community',
+      src: '/eat well.png',
+      alt: 'healthy meal',
+      title: 'Vitality, energy, nourishment',
     },
   ]
 
