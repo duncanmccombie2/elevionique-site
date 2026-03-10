@@ -199,46 +199,83 @@ function App() {
           </div>
         </section>
 
-        <section id="product" className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
-          <div className="grid items-start gap-12 lg:grid-cols-2">
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-700">Featured Product</p>
-              <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">GLP LeanShield™</h2>
-              <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">
-                A modern nutritional support supplement designed for individuals pursuing optimal living while managing appetite and metabolic health.*
-              </p>
-              <ul className="mt-6 space-y-3 text-slate-700">
-                <li>• Supports lean muscle maintenance*</li>
-                <li>• Supports healthy metabolism*</li>
-                <li>• Supports bone and mineral balance*</li>
-                <li>• Supports energy production*</li>
-              </ul>
-              <a href="#shop" className="mt-8 inline-flex rounded-2xl bg-slate-900 px-6 py-3 text-sm font-medium text-white shadow-sm transition hover:bg-slate-800">
-                Shop GLP LeanShield
-              </a>
-            </div>
-            <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
-              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-500">Supplement Facts Preview</p>
-              <div className="mt-5 text-sm text-slate-700">
-                <div className="grid grid-cols-3 border-b border-slate-200 pb-2 font-semibold text-slate-600">
-                  <span>Nutrient</span>
-                  <span className="text-right">Amount</span>
-                  <span className="text-right">%DV</span>
-                </div>
-                {ingredients.map((item) => (
-                  <div key={item.name} className="grid grid-cols-3 border-b border-slate-200 py-2">
-                    <span>{item.name}</span>
-                    <span className="text-right">{item.amount}</span>
-                    <span className="text-right">{item.dv}</span>
-                  </div>
-                ))}
-                <div className="pt-3 text-xs leading-6 text-slate-500">
-                  *These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <section className="py-16 bg-white">
+  <div className="max-w-4xl mx-auto px-6">
+    
+    <h2 className="text-3xl font-semibold text-gray-900 mb-6">
+      Supplement Facts
+    </h2>
+
+    <p className="text-sm text-gray-600 mb-4">
+      Serving Size: 2 Capsules • Servings Per Container: 30
+    </p>
+
+    <div className="border rounded-lg overflow-hidden">
+      <table className="w-full text-left border-collapse">
+        
+        <thead className="bg-gray-100">
+          <tr>
+            <th className="p-3 font-semibold">Ingredient</th>
+            <th className="p-3 font-semibold">Amount Per Serving</th>
+            <th className="p-3 font-semibold">% Daily Value</th>
+          </tr>
+        </thead>
+
+        <tbody className="divide-y">
+
+          <tr>
+            <td className="p-3">Vitamin C (as Ascorbic Acid)</td>
+            <td className="p-3">90 mg</td>
+            <td className="p-3">100%</td>
+          </tr>
+
+          <tr>
+            <td className="p-3">Vitamin D3 (as Cholecalciferol)</td>
+            <td className="p-3">25 mcg (1,000 IU)</td>
+            <td className="p-3">125%</td>
+          </tr>
+
+          <tr>
+            <td className="p-3">Vitamin B12 (as Methylcobalamin)</td>
+            <td className="p-3">12 mcg</td>
+            <td className="p-3">500%</td>
+          </tr>
+
+          <tr>
+            <td className="p-3">Biotin (Vitamin B7)</td>
+            <td className="p-3">30 mcg</td>
+            <td className="p-3">100%</td>
+          </tr>
+
+          <tr>
+            <td className="p-3">Calcium (as Calcium Citrate)</td>
+            <td className="p-3">300 mg</td>
+            <td className="p-3">23%</td>
+          </tr>
+
+          <tr>
+            <td className="p-3">Magnesium (as Magnesium Glycinate)</td>
+            <td className="p-3">150 mg</td>
+            <td className="p-3">36%</td>
+          </tr>
+
+          <tr>
+            <td className="p-3">Zinc (as Zinc Picolinate)</td>
+            <td className="p-3">10 mg</td>
+            <td className="p-3">91%</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <p className="text-xs text-gray-500 mt-6">
+      * These statements have not been evaluated by the Food and Drug Administration. 
+      This product is not intended to diagnose, treat, cure, or prevent any disease.
+    </p>
+
+  </div>
+</section>
 
         <section id="ingredients" className="bg-white">
           <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-24">
