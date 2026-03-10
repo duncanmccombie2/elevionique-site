@@ -59,7 +59,7 @@ function App() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           <div className="flex items-center gap-3">
   <img
-    src="/elevionique-primary.svg"
+    src="/hero-banner.png"
     alt="Elevionique"
     className="h-24 w-auto"
   />
