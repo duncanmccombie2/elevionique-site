@@ -16,17 +16,17 @@ function App() {
 
   const communityImages = [
     {
-      src: '/feel strong.png',
+      src: '/Feel-Strong.png',
       alt: 'Man bench pressing',
       title: 'Strength that feels good',
     },
     {
-      src: '/move daily.png',
+      src: '/Move-Daily.png',
       alt: 'Happy woman after workout',
       title: 'Wellness for real life',
     },
     {
-      src: '/eat well.png',
+      src: '/Eat-Well.png',
       alt: 'healthy meal',
       title: 'Vitality, energy, nourishment',
     },
