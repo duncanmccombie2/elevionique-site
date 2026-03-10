@@ -200,6 +200,23 @@ function App() {
         </section>
 
         <section className="py-16 bg-white">
+  <div className="grid items-start gap-12 lg:grid-cols-2">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-700">Featured Product</p>
+              <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">GLP LeanShield™</h2>
+              <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">
+                A modern nutritional support supplement designed for individuals pursuing optimal living while managing appetite and metabolic health.*
+              </p>
+              <ul className="mt-6 space-y-3 text-slate-700">
+                <li>• Supports lean muscle maintenance*</li>
+                <li>• Supports healthy metabolism*</li>
+                <li>• Supports bone and mineral balance*</li>
+                <li>• Supports energy production*</li>
+              </ul>
+              <a href="#shop" className="mt-8 inline-flex rounded-2xl bg-slate-900 px-6 py-3 text-sm font-medium text-white shadow-sm transition hover:bg-slate-800">
+                Shop GLP LeanShield
+              </a>
+            </div>
   <div className="max-w-4xl mx-auto px-6">
     
     <h2 className="text-3xl font-semibold text-gray-900 mb-6">
