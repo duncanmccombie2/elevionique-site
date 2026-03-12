@@ -16,19 +16,19 @@ function App() {
 
   const communityImages = [
     {
-      src: '/Feel-Strong.png',
-      alt: 'Man bench pressing',
+      src: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1200&q=80',
+      alt: 'Fit woman smiling in a gym after a workout',
       title: 'Strength that feels good',
     },
     {
-      src: '/Move-Daily.png',
-      alt: 'Happy woman after workout',
+      src: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=80',
+      alt: 'Happy mixed group of young adults in athletic wear',
       title: 'Wellness for real life',
     },
     {
-      src: '/Eat-Well.png',
-      alt: 'healthy meal',
-      title: 'Vitality, energy, nourishment',
+      src: 'https://images.unsplash.com/photo-1518459031867-a89b944bffe4?auto=format&fit=crop&w=1200&q=80',
+      alt: 'Young man and woman stretching together in a bright studio',
+      title: 'Movement, energy, community',
     },
   ]
 
@@ -59,7 +59,7 @@ function App() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           <div className="flex items-center gap-3">
   <img
-    src="/hero-banner.png"
+    src="/elevionique website banner fade.png"
     alt="Elevionique"
     className="h-24 w-auto"
   />
