@@ -42,7 +42,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     padding: "20px",
   },
   content: {
-    maxWidth: "600px",
+    maxWidth: "900px",
   },
   logo: {
     fontSize: "28px",
