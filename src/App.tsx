@@ -3,33 +3,22 @@ export default function Home() {
     <main style={styles.container}>
       <div style={styles.content}>
         
-        {/* Logo (optional) */}
+        {/* Logo / Brand */}
         <div style={styles.logo}>
           ELEVIONIQUE
         </div>
 
         <h1 style={styles.heading}>
-          Something Powerful is Coming
+          Coming Soon
         </h1>
 
         <p style={styles.subtext}>
-          Elevionique is building a next-generation wellness platform designed to support your health, energy, and longevity.
+          Targeted daily nutrition designed to support energy, vitality, and long-term health.
         </p>
 
         <p style={styles.subtext}>
-          We’re launching soon.
+          We’re building something powerful. Launching soon.
         </p>
-
-        <div style={styles.emailBox}>
-          <input
-            type="email"
-            placeholder="Enter your email"
-            style={styles.input}
-          />
-          <button style={styles.button}>
-            Notify Me
-          </button>
-        </div>
 
         <p style={styles.footer}>
           © {new Date().getFullYear()} Elevionique. All rights reserved.
@@ -70,28 +59,6 @@ const styles: { [key: string]: React.CSSProperties } = {
     fontSize: "18px",
     opacity: 0.8,
     marginBottom: "15px",
-  },
-  emailBox: {
-    display: "flex",
-    marginTop: "30px",
-    gap: "10px",
-    justifyContent: "center",
-    flexWrap: "wrap",
-  },
-  input: {
-    padding: "12px 16px",
-    borderRadius: "8px",
-    border: "none",
-    minWidth: "250px",
-  },
-  button: {
-    padding: "12px 18px",
-    borderRadius: "8px",
-    border: "none",
-    backgroundColor: "#22c55e",
-    color: "white",
-    fontWeight: 600,
-    cursor: "pointer",
   },
   footer: {
     marginTop: "40px",
