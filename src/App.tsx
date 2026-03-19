@@ -9,7 +9,7 @@ export default function Home() {
         </div>
 
         <h1 style={styles.heading}>
-          ~Something Powerful Is Coming~
+          - Something Powerful Is Coming -
         </h1>
 
         <p style={styles.subtext}>
